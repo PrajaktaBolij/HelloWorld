@@ -27,6 +27,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'DockerHub'
-    repository: 'prajakta236/repo2:5'
+    repository: 'prajakta236/repo2'
     command: 'buildAndPush'
     Dockerfile: '**/AzureDockerfile'
+
